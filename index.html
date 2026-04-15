@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfredo Fernández — Frontend Developer</title>
+  <link rel="icon" type="image/x-icon" href="src/43-logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- ─── Nav ─── -->
+  <nav>
+    <a href="#" class="nav-logo">AF<span>_</span></a>
+    <ul class="nav-links">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#skills">Stack</a></li>
+      <li><a href="#proyecto">Proyecto</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── Hero ─── -->
+  <section class="hero">
+    <p class="hero-tag">// Frontend Developer</p>
+    <h1 class="hero-name">
+      <span class="line"><span>ALFREDO</span></span>
+      <span class="line lastname"><span class="accent">FERNÁNDEZ</span></span>
+    </h1>
+    <div class="hero-bottom">
+      <span class="hero-role">Construyendo desde cero<span class="blink"></span></span>
+      <span class="hero-line"></span>
+    </div>
+    <p class="scroll-hint">Scroll</p>
+  </section>
+
+  <!-- ─── About ─── -->
+  <section id="sobre-mi">
+    <p class="section-label reveal">// 01 — Sobre mí</p>
+    <div class="about-grid">
+      <div class="about-number reveal">01</div>
+      <p class="about-text reveal reveal-delay">
+        Soy Alfredo, desarrollador frontend en formación.
+        Me manejo bien con <em>HTML, CSS y JavaScript</em>, y este sitio
+        es la prueba de eso. No pretendo mostrar más de lo que no sé,
+        la base de todo siempre va a ser la verdad.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── Skills ─── -->
+  <section id="skills">
+    <p class="section-label reveal">// 02 — Stack</p>
+    <div class="skills-grid reveal">
+      <div class="skill-item">
+        <p class="skill-num">01</p>
+        <p class="skill-name">HTML</p>
+        <p class="skill-desc">Estructura semántica,<br>accesibilidad, formularios</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-num">02</p>
+        <p class="skill-name">CSS</p>
+        <p class="skill-desc">Flexbox, Grid, animaciones,<br>diseño responsive</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-num">03</p>
+        <p class="skill-name">JavaScript</p>
+        <p class="skill-desc">DOM, eventos, lógica<br>básica e intermedia</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-num">04</p>
+        <p class="skill-name">Git</p>
+        <p class="skill-desc">Control de versiones,<br>GitHub, commits limpios</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Project ─── -->
+  <section id="proyecto">
+    <p class="section-label reveal">// 03 — Proyecto</p>
+    <div class="project-card reveal">
+      <div>
+        <p class="project-tag">01 / Portfolio</p>
+        <h2 class="project-title">Este sitio.</h2>
+        <p class="project-desc">
+          Mi primer proyecto público. Lo diseñé y escribí pensando
+          en cómo quiero mostrarme: alguien que recién está entrando en este mundo,
+          con foco en el código limpio y con orden elegante en lo visual.
+        </p>
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+          <span class="tag">GitHub Pages</span>
+        </div>
+      </div>
+      <div class="project-visual">
+        <span class="project-visual-code">&lt;/&gt;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ─── -->
+  <section id="contacto">
+    <p class="section-label reveal">// 04 — Contacto</p>
+    <h2 class="contact-heading reveal">Hablemos.</h2>
+    <div class="contact-links reveal reveal-delay">
+      <a href="mailto:alfre.programa@email.com" class="contact-link">
+        Email <span class="arr">↗</span>
+      </a>
+      <a href="https://github.com/alfreprograma-source" class="contact-link" target="_blank" rel="noopener">
+        GitHub <span class="arr">↗</span>
+      </a>
+      <a href="https://www.linkedin.com/in/alfredo-fernandez-a242703a7" class="contact-link" target="_blank" rel="noopener">
+        LinkedIn <span class="arr">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer>
+    <p>© 2025 Alfredo Fernández</p>
+    <p>Hecho con HTML, CSS & JS — sin frameworks</p>
+  </footer>
+
+</body>
+</html>
