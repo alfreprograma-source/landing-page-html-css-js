@@ -375,9 +375,8 @@
       .project-card { grid-template-columns: 1fr; gap: 2rem; padding: 2rem; }
       .project-visual { display: none; }
       footer { flex-direction: column; gap: 0.75rem; text-align: center; }
-      
-      .hero-name { font-size: clamp(2.9rem, 10vw, 10rem); }
-      .hero-name .lastname { font-size: clamp(2.2rem, 6vw, 5rem); }
-      .contact-heading { font-size: clamp(2.5rem, 8vw, 5rem); }
+      .hero-name { font-size: clamp(1.7rem, 7vw, 5rem); }
+      .hero-name .lastname { font-size: clamp(1rem, 7vw, 5rem); }
+      .contact-heading { font-size: clamp(2rem, 8vw, 5rem); }
       .cursor, .cursor-ring { display: none; }
     }
