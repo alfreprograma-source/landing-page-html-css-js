@@ -373,7 +373,8 @@
       nav { padding: 1.5rem; }
       .nav-links { display: none; }
       .hero {justify-content: space-around; }
-      .hero img { width: 200px; height: auto; }
+      .hero img { width: 200px; height: auto; gap: 0; }
+      .hero-content {gap: 0; }
       .scroll-hint { display: none; }
       section { padding: 4.5rem 1.5rem; }
       .about-grid { grid-template-columns: 1fr; gap: 1rem; }
