@@ -83,8 +83,6 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      padding: 7rem 1.5rem 4rem;
-      padding-bottom: 5rem;
       position: relative;
       overflow: hidden;
     }
